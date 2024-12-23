@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Clonar Repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/FlacoBarona/jenkins.git'
+                git branch: 'main', url: 'https://github.com/FlacoBarona/Words-per-minute.git'
             }
         }
         stage('Construir Imagen') {
